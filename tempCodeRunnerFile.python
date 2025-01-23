@@ -1,0 +1,3 @@
+import urllib.parse
+
+reset_link = f"sleepypanda://resetpassword?token={urllib.parse.quote(token)}"
